@@ -1,0 +1,495 @@
+<!doctype html>
+<html>
+<head>
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="css/style.css">
+<title>Rush Wears</title>
+<style>
+	.body{
+		margin:0;
+		padding:0;
+		background-color: peru
+	}
+	.layout{
+		margin: 10px;
+	}
+	.nav ul {
+		list-style-type: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: peru;}
+
+	li {
+		display: inline-block;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+		font-family: "Times New Roman";
+		transition: 0.4s; 
+	}
+
+	li a:hover {
+	background-color: sienna;
+		transition: 0.4s
+	}
+
+	
+	.dropdown {
+	position: relative;
+	display: inline-block;
+	}
+	.dropdown1 {
+	position: relative;
+	display: inline-block;
+	}
+		
+	.dropbtn{
+		background-color:peru;		
+		color: white;
+		font-size: 16px;
+		font-weight: bold;
+		border: none;
+		cursor: pointer;
+	}
+	.dropbtn1{
+		color: black;
+		padding:16px;
+		border: none;
+		cursor: pointer;
+	}
+	
+	a {
+	color: white;
+	text-decoration: none;
+	}
+
+	.dropdown-submenu {
+		background: transparent!important;
+		border: none !important;
+		box-shadow: none !important;
+	}
+	.dropdown-menu1{
+      display: none;
+    }
+    .dropdown-submenu:hover .dropdown-menu1{
+      display: block;
+      position: absolute;
+    } 
+
+    .dropdown-menu2{
+      display: none;
+    }
+    .dropdown-submenu1:hover .dropdown-menu2{
+      display: block;
+      position: absolute;
+    } 
+	.dropdown-menu1 li:hover a{
+      color: #000;
+    } 
+
+    .dropdown-menu li{
+      display: inline;
+      padding: 3px 7px;
+      background-color: #fff;
+      /* border: 1px solid rgb(120, 67, 15); */
+      box-shadow: 1px 1px 3px #000;
+    }
+    .dropdown-menu li a{
+      text-decoration: none;
+    }
+    .dropdown-menu1 li {
+    display: block;
+    width: 150px;
+    margin-left: -40px;
+	color: rgb(120, 67, 15)
+   }
+   .dropdown-menu1 li a{
+	color: rgb(120, 67, 15)
+   }
+    .dropdown-menu2{
+      height: 3px;
+	  margin-left: 140px;
+      margin-top: -50px;
+    }
+    .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: sienna;
+  font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.card button:hover {
+  opacity: 0.5;
+}
+
+	.card img{
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+	.card h2{
+		height: 40px;
+	}
+</style>
+</head>
+
+
+<body style="background-color: peru">
+	<table class="layout">
+
+<tr>
+	<table width="34%" height="116" border="10" align= "center" margin-left= "auto" margin-right= "auto" style="background-color: whitesmoke" bordercolor="#78430F">
+	    <tbody>
+    		<tr>
+      		    <th>
+					<h1>Rush Wears</h1> 
+					<h3> Retail Shop</h3>
+					<div class="title">BAGS</div>
+				</th>
+    		</tr>
+  	    </tbody>
+	</table>
+</tr>
+
+<tr>
+<table width="75%" border="2" align="center" style="background-color: peru" bordercolor="#78430F">
+  <tbody>
+    <tr>
+
+      <th height="39" scope="col"><a href="home.html">Home</a></th>
+      <th scope="col">
+		<div class="dropdown">
+			<ul class="dropdown-menu">
+			
+			  <li class="dropdown-submenu">
+				<button class="dropbtn">Shop <span class="caret"></span> </button> 
+				<ul class="dropdown-menu1">
+				  <li><a tabindex="-1" href="menswear.html">Menswear</a></li>
+				  <li class="dropdown-submenu1">
+					<a class="test" href="#">Womenswear <span class="caret"></span></a>
+					<ul class="dropdown-menu2">
+					  <li><a href="bags.html">Bags</a></li>
+					  <li><a href="shoes.html">Shoes</a></li>
+					  <li><a href="dresses.html">dresses</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </li>
+			</ul>
+		  </div>
+      </th>
+	  <th scope="col">  <a class="clean" href="about.html">About</a></th>
+      <th scope="col"> <a class="clean" href="contact.html">Contact</a></th>
+      
+      
+    </tr>
+  </tbody>
+</table>
+</tr>
+<tr>
+	<table width="75%" border="2" align="center">
+  		<tbody>
+    <tr>
+     	<th scope="col">
+				 <div class="card">
+  			<img src="images/5.jpg" alt="Bags" style="width:100%">
+  			<h2 Baby pink and blue handbag</h2>
+  			<p class="price ">$100.00</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="100.00" data-name="Baby pink and blue handbag" data-image ="images/5.jpg">Add to Cart</button></p>
+				</div> 
+		</th>
+		<th scope="col">
+			<div class="card">
+			<img src="images/6.jpg" alt="Bags" style="width:100%">
+			<h2>Brown handbag</h2>
+			<p class="price">$19.99</p>
+			
+			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Brown handbag" data-image ="images/6.jpg">Add to Cart</button></p>
+			</div> 
+		</th>
+		
+   	
+		
+		<th scope="col">
+				<div class="card">
+  			<img src="images/8.jpg" alt="Bags" style="width:100%">
+  			<h2>Mustard yellow purse</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Mustard yellow purse" data-image ="images/8.jpg">Add to Cart</button></p>
+				</div> 
+		</th>
+		
+		<th scope="col">
+				<div class="card">
+  			<img src="images/9.jpg" alt="Bags" style="width:100%">
+  			<h2>Creamy pink handbag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Creamy pink handbag" data-image ="images/9.jpg">Add to Cart</button></p>
+				</div> 
+		</th>
+		
+		
+    </tr>
+    <tr>
+      	<td>
+				<div class="card">
+  			<img src="images/14.jpg" alt="Bags" style="width:100%">
+  			<h2>3 set bags</h2>
+  			<p class="price">$30.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="30.99" data-name="Set bags" data-image ="images/14.jpg">Add to Cart</button></p>
+				</div> 
+		</td>
+		
+      	<td>
+				<div class="card">
+  			<img src="images/20.jpg" alt="Bags" style="width:100%">
+  			<h2>Musturd yellow handbag</h2>
+  			<p class="price">$22.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="22.99" data-name="Musturd yellow handbag" data-image ="images/20.jpg" >Add to Cart</button></p>
+				</div>
+		</td>
+		
+		<td>
+				<div class="card">
+  			<img src="images/27.jpg" alt="Bags" style="width:100%">
+  			<h2>Red handbag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Red handbag" data-image ="images/27.jpg">Add to Cart</button></p>
+				</div>
+		</td>
+		
+		<td>
+				<div class="card">
+  			<img src="images/30.jpg" alt="Bags" style="width:100%">
+  			<h2>Black handbag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Black handbag" data-image ="images/30.jpg">Add to Cart</button></p>
+				</div>
+		</td>
+    </tr>
+			<tr>
+     	<th scope="col">
+				 <div class="card">
+  			<img src="images/31.jpg" alt="Bags" style="width:100%">
+  			<h2>Maroon handag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Maroon handbag" data-image ="images/31.jpg">Add to Cart</button></p>
+				</div> 
+		</th>
+		
+   		<th scope="col">
+				<div class="card">
+  			<img src="images/32.jpg" alt="Bags" style="width:100%">
+  			<h2>Dusty pink handbag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Dusty pink handbag" data-image ="images/32.jpg">Add to Cart</button></p>
+				</div> 
+		</th>
+		
+		<th scope="col">
+				<div class="card">
+  			<img src="images/33.jpg" alt="Bags" style="width:100%">
+  			<h2>Snake skin handbag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Snake skin handbag" data-image ="images/33.jpg">Add to Cart</button></p>
+				</div> 
+		</th>
+		
+		<th scope="col">
+				<div class="card">
+  			<img src="images/34.jpg" alt="Bags" style="width:100%">
+  			<h2>Leather red handbag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Leather red handbag" data-image ="images/34.jpg">Add to Cart</button></p>
+				</div> 
+		</th>
+		
+		
+    </tr>
+    <tr>
+      	<td>
+				<div class="card">
+  			<img src="images/35.jpg" alt="Bags" style="width:100%">
+  			<h2>Nude handbag</h2>
+  			<p class="price">$33.4</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="33.4" data-name="Nude handbag" data-image ="images/35.jpg">Add to Cart</button></p>
+				</div> 
+		</td>
+		
+      	<td>
+				<div class="card">
+  			<img src="images/36.jpg" alt="Bags" style="width:100%">
+  			<h2>Navy nlue handbag</h2>
+  			<p class="price">$19.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="19.99" data-name="Brown handbag" data-image ="images/6.jpg">Add to Cart</button></p>
+				</div>
+		</td>
+		
+		<td>
+				<div class="card">
+  			<img src="images/37.jpg" alt="Bags" style="width:100%">
+  			<h2>Pink and green handbag</h2>
+  			<p class="price">$144.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="144.99" data-name="Pink and green handbag" data-image ="images/37.jpg">Add to Cart</button></p>
+				</div>
+		</td>
+		
+		<td>
+				<div class="card">
+  			<img src="images/38.jpg" alt="bags" style="width:100%">
+  			<h2>Princess pink handbag</h2>
+  			<p class="price">$29.99</p>
+  			
+ 			<p><button class="cd-add-to-cart js-cd-add-to-cart" data-price="29.99" data-name="Princess pink handbag" data-image ="images/38.jpg">Add to Cart</button></p>
+				</div>
+		</td>
+    </tr>
+			
+		</tbody>
+</table>
+		</tr>
+	
+
+	</table>
+
+	<!-- CODE FOR ADD/REMOVE FROM CART -->
+	<div class="cd-cart cd-cart--empty js-cd-cart">
+		<a href="#0" class="cd-cart__trigger text-replace">X
+			Cart
+			<ul class="cd-cart__count"> <!-- cart items count -->
+				<li>0</li>
+				<li>0</li>
+			</ul> <!-- .cd-cart__count -->
+		</a>
+	
+		<div class="cd-cart__content">
+			<div class="cd-cart__layout">
+				<header class="cd-cart__header">
+					<h2>Cart</h2>
+					<span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+				</header>
+				
+				<div class="cd-cart__body" >
+					<ul id="cd-cart__body">
+						<!-- products added to the cart will be inserted here using JavaScript -->
+					</ul>
+				</div>
+	
+				<footer class="cd-cart__footer">
+					<!-- Whatsapp -->
+					<a onclick="sendWhatsapp();" class="cd-cart__checkout_whatsapp">
+					 <em style=""> <span style="margin-left:30px;">Order On Whatsapp</span> 
+					 	<svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/></g>
+						</svg>
+					<em/>
+					</a>
+
+					<!-- Email -->
+					<a href="#0" onclick="sendMail();"  class="cd-cart__checkout">
+					  <em>Order On Email - $<span id ="total_amount">0</span>
+						<svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/></g>
+						</svg>
+					  </em>
+					</a>
+				</footer>
+			</div>
+		</div> <!-- .cd-cart__content-->
+	</div> <!-- cd-cart -->
+	<script src="js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+	<script src="js/main.js"></script> 
+	<script type="text/javascript">
+		function sendWhatsapp() {
+	 		// remove unneccessary text
+	 		var myobj = document.getElementsByClassName('cd-cart__actions');
+	 		console.log(myobj)
+		  	for (i = 0; i < myobj.length + 1; i++) {
+			  myobj[i].remove();
+			}
+
+		         var link = "https://web.whatsapp.com/send"
+		         + "?phone=256754033432"
+		         + "&text=" + escape("*Hello,  would want to purchase:*")
+		         + escape(document.getElementById('cd-cart__body').textContent) + "*|| GRAND TOTAL:* $"+escape(document.getElementById('total_amount').textContent)
+		    	;
+		     window.location.href = link;
+		 }
+
+
+
+
+
+	 	function sendMail() {
+	 		// remove unneccessary text
+
+	 		var myobj = document.getElementsByClassName('cd-cart__actions');
+	 		console.log(myobj)
+		  	// myobj[0].remove();
+		  	for (i = 0; i < myobj.length + 1; i++) {
+			  myobj[i].remove();
+			}
+		         var link = "mailto:davidaphillipa@gmal.com"
+		         + "?cc= "
+		         + "&subject=" + escape("RE:ORDER FOR THE ITEMS PUT IN THE SHOPPING CART")
+		         + "&body= Hello, I want to purchase:" + escape(document.getElementById('cd-cart__body').textContent) +"|| GRAND TOTAL: $"+escape(document.getElementById('total_amount').textContent)
+		     ;
+		     window.location.href = link;
+		 }
+	 </script>
+
+
+
+</body>
+</html>
